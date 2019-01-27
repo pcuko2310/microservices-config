@@ -2,8 +2,6 @@ server:
   port: 8765
 
 eureka:
-  instance:
-    preferIpAddress: true
   client:
     serviceUrl:
 defaultZone: http://localhost:8761/
